@@ -32,7 +32,6 @@ public class ItemNamePacket extends PacketAdapter
             }
             for (WrappedWatchableObject watchableObject : dataWatcherValues)
             {
-                System.out.println(watchableObject.toString());
                 if (watchableObject.getIndex() == 2)
                 {
                     String customName;

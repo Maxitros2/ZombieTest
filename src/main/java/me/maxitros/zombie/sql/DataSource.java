@@ -28,6 +28,7 @@ public class DataSource {
                             "CREATE TABLE IF NOT EXISTS `%s`.`%s` (\n" +
                             "  `ID` INT NOT NULL AUTO_INCREMENT,\n" +
                             "  `Name` VARCHAR(10) NOT NULL,\n" +
+                            "  `Killer` VARCHAR(10) NOT NULL,\n" +
                             "  PRIMARY KEY (`ID`));\n",
                     section.getString("database"),"zombies"));
             pst.executeUpdate();

@@ -25,7 +25,6 @@ public class UpdateRunnable extends BukkitRunnable {
         try {
             Connection connection = this.connection;
             preparedStatement = connection.prepareStatement(statement);
-
             if (callback != null)
             {
                 callback.call(preparedStatement.executeUpdate(), null);
