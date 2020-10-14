@@ -1,0 +1,8 @@
+name: ZombieTest
+main: me.maxitros.zombie.ZombieTest
+version: 1.0
+author: Maxitros
+depend: [ProtocolLib]
+commands:
+  zombielist:
+    description: "Shows last 10 dead Zombies"
